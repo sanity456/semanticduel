@@ -1,0 +1,48 @@
+{
+  "schema": "genlayer-contract-evidence/v1",
+  "recorded_at": "2026-08-16T11:56:52.9668979Z",
+  "network": {
+    "alias": "testnet-bradbury",
+    "chain_id": 4221,
+    "rpc": "https://rpc-bradbury.genlayer.com"
+  },
+  "accounts": {
+    "player_a": "0x8df7ff5eb4ac84a09cad222175b3459bb746946c",
+    "player_b": "0x229ec878692e45ca3125239a76759f4bc4b65bba"
+  },
+  "artifact": {
+    "path": "contracts/semantic_duel.py",
+    "bytes": 17134,
+    "sha256": "8fc849d67699b84f85065021227f7ea94691414bcf97d760e9c3a7de83f6c6e8",
+    "deployed_source_exact_match": true
+  },
+  "deployment": {
+    "transaction_hash": "0xd6cce8e9ef853a693076b4e8e561b09851c93034fd4320ce773e4dcf304403f1",
+    "contract_address": "0xacb19ccb5bEC5a7d499816B9eBd83b25C9A332B8",
+    "status": "ACCEPTED",
+    "consensus_result": "AGREE",
+    "execution_result": "FINISHED_WITH_RETURN"
+  },
+  "workflow_transactions": {
+    "join": "0xe8ac878e45954bef90966da5e5deb333cae12069f051c59c4dbcc79272c9afb0",
+    "commit_a": "0x25c862cb5d17b6fb796f0885ed04f97a9e067fc890296ebe87fdc4eca6447064",
+    "commit_b": "0x812e14186ecf1b6d61c96ba1215c7f3f088a15898bbd18092596b48c62dd25f0",
+    "reveal_a": "0xa861b6b8c35c50dfb8473245cf320f09bf5fd0fb122c5423175ea2cec7c4b388",
+    "reveal_b": "0xb77a60f21a22cc693d8d4bd62ebf86b068305cf848b607493ca127d5126c412b",
+    "resolve_round": "0xea7173add3b8ef8ad0758b7183b0a3654969a38651549f81f2a6769e59cccd5d"
+  },
+  "verification": {
+    "transaction_hash": "0xea7173add3b8ef8ad0758b7183b0a3654969a38651549f81f2a6769e59cccd5d",
+    "status": "ACCEPTED",
+    "consensus_result": "AGREE",
+    "execution_result": "FINISHED_WITH_RETURN",
+    "observed_state": {
+      "round": 1,
+      "outcome": "STALEMATE",
+      "damage_a": 0,
+      "damage_b": 0,
+      "hp_a": 6,
+      "hp_b": 6
+    }
+  }
+}

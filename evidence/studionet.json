@@ -1,0 +1,48 @@
+{
+  "schema": "genlayer-contract-evidence/v1",
+  "recorded_at": "2026-08-16T11:56:52.9668979Z",
+  "network": {
+    "alias": "studionet",
+    "chain_id": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "accounts": {
+    "player_a": "0x8df7ff5eb4ac84a09cad222175b3459bb746946c",
+    "player_b": "0x229ec878692e45ca3125239a76759f4bc4b65bba"
+  },
+  "artifact": {
+    "path": "contracts/semantic_duel.py",
+    "bytes": 17134,
+    "sha256": "8fc849d67699b84f85065021227f7ea94691414bcf97d760e9c3a7de83f6c6e8",
+    "deployed_source_exact_match": true
+  },
+  "deployment": {
+    "transaction_hash": "0x2a64578936fe1229bf100d835a26e4e4f08e34c7bd8e33d5ed9fc614f91ac09a",
+    "contract_address": "0xC641D96BCEdF048457D3Cde8946C82019438D1d0",
+    "status": "FINALIZED",
+    "consensus_result": "MAJORITY_AGREE",
+    "execution_result": "SUCCESS"
+  },
+  "workflow_transactions": {
+    "join": "0xff5e1419a251290a298cc8169024fa088dc1ca8e47cdec910b095b3317d2fee7",
+    "commit_a": "0x08e06bf7ae14e1d0c9e1cc6958aa682a02ef2be135c4f01387b6c8634357c3cb",
+    "commit_b": "0xe27255d003003d13753bb937290b3da3f78f5abd0756800c6fd06b71cc838b57",
+    "reveal_a": "0x2cb542262590be5168c3a0cc3f6d8c56882a6f230d93baeb650134e04472d958",
+    "reveal_b": "0x8feb70441ed60d1170bd65303b3f8bcdc6fef902f96fa6cb0312b3390ea82d74",
+    "resolve_round": "0x69473376650ffd4018642f75733d0f5260d279f3e265fc2a5864b94e628711f6"
+  },
+  "verification": {
+    "transaction_hash": "0x69473376650ffd4018642f75733d0f5260d279f3e265fc2a5864b94e628711f6",
+    "status": "FINALIZED",
+    "consensus_result": "MAJORITY_AGREE",
+    "execution_result": "SUCCESS",
+    "observed_state": {
+      "round": 1,
+      "outcome": "TRADE",
+      "damage_a": 1,
+      "damage_b": 1,
+      "hp_a": 5,
+      "hp_b": 5
+    }
+  }
+}
